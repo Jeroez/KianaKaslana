@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     var navbar= document.getElementById('navbar');
-    var homeSection = document.getElementById('Home');
+    var homeSection = document.getElementById('Landing');
 
     window.addEventListener('scroll', function() {
         var scrollPosition = window.scrollY;
