@@ -1,0 +1,58 @@
+.FirstW{/*LI*/
+    height: 50px;
+    height: 50p;
+    perspective: 1000px; 
+}
+.SecondW{/*LI*/
+    perspective: 1000px; 
+    transform: rotateY(180deg);
+}
+.Main{
+    margin-left: 300px;
+}
+
+
+#navbar {/*UL*/
+    width: 130px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    overflow-x: hidden;
+    padding: 50px 0px;
+    display: none;
+}
+#navbar a {
+    opacity: 0.7;
+}
+.current{
+    height: 200px;
+    width: 200px;
+    opacity: 1;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    display: block;
+}
+#navbar a:hover{
+    height: 100px;
+    width: 100px;
+}
+.Landingpic{
+    width: 100%;
+    height: 1200px;
+}
+
+
+
+p, h1, h2, h3, h4, h5, h6{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: beige;
+}
