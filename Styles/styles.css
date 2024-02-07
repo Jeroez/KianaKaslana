@@ -1,16 +1,20 @@
 .FirstW{/*LI*/
-    height: 50px;
-    height: 50p;
+    height: 100px;
     perspective: 1000px; 
+    margin-left: 10%;
 }
 .SecondW{/*LI*/
+    height: 100px;
     perspective: 1000px; 
-    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+    margin-left: 10%;
 }
 .Main{
     margin-left: 300px;
 }   
-
+.sec{
+    height: 100%;
+}
 
 #navbar {/*UL*/
     width: 200px;
@@ -55,4 +59,16 @@ p, h1, h2, h3, h4, h5, h6{
 }
 body{
     background-color: beige;
+}
+
+.Portfolio{
+    display: block;
+    text-align: center;
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+    margin: 20px auto;
+    width: 150px;
+    text-decoration: none;
+    border-radius: 5px;
 }
