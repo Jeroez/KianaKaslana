@@ -1,3 +1,16 @@
+body{
+    background: url(https://pbs.twimg.com/media/EYn6zVBWoAEqzE2?format=jpg&name=large);
+    background-attachment: fixed;
+    font-weight: bold;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+
+}
 .FirstW{/*LI*/
     height: 100px;
     perspective: 1000px; 
@@ -9,11 +22,25 @@
     transform: rotateY(180deg);
     margin-left: 10%;
 }
+.description{
+    width: 500px;
+    margin-top: -600px;
+    font-family: monospace;
+    font-size: 30px;
+    color: darkred;
+}
+
+.right{
+    margin-left: 700px;
+}
 .Main{
-    margin-left: 300px;
+    margin-left: 250px;
 }   
 .sec{
     height: 100%;
+}
+.valk1,.valk2{
+    margin-left: ;
 }
 
 #navbar {/*UL*/
